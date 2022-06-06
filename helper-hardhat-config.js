@@ -71,10 +71,13 @@ const networkConfig = {
 		callbackGasLimit: 500_000,
 		interval: 15,
 	},
+	69: {
+		name: "optimisticKovan",
+	},
 };
 
 const developmentChains = ["hardhat", "localhost"];
-const VERIFICATION_BLOCK_CONFIRMATIONS = 6;
+const VERIFICATION_BLOCK_CONFIRMATIONS = 5;
 
 module.exports = {
 	networkConfig,
