@@ -29,10 +29,10 @@ const networkConfig = {
 };
 
 const developmentChains = ["hardhat", "localhost"];
-const VERIFICATION_BLOCK_CONFIRMATIONS = 5;
+const BLOCK_CONFIRMATIONS = 5;
 
 module.exports = {
 	networkConfig,
 	developmentChains,
-	VERIFICATION_BLOCK_CONFIRMATIONS,
+	BLOCK_CONFIRMATIONS,
 };
