@@ -18,8 +18,8 @@ module.exports = {
 		hardhat: {
 			forking: {
 				url: process.env.MAINNET_URL,
-				blockNumber: process.env.FORKING_BLOCK_NUMBER,
-				enabled: false,
+				blockNumber: ~~process.env.FORKING_BLOCK_NUMBER,
+				enabled: !!process.env.MAINNET_FORKING,
 			},
 			chainId: 31337,
 		},
