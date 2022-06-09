@@ -15,7 +15,7 @@ const networkConfig = {
 		name: "goerli",
 	},
 	137: {
-		name: "polygon",
+		name: "polygonMumbai",
 	},
 	4002: {
 		name: "ftmTestnet",
