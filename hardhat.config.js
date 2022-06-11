@@ -29,27 +29,18 @@ module.exports = {
 		mainnet: {
 			url: process.env.MAINNET_URL,
 			accounts: [process.env.PRIVATE_KEY],
-			//   accounts: {
-			//     mnemonic: MNEMONIC,
-			//   },
 			saveDeployments: true,
 			chainId: 1,
 		},
 		kovan: {
 			url: process.env.KOVAN_URL,
 			accounts: [process.env.PRIVATE_KEY],
-			//accounts: {
-			//     mnemonic: MNEMONIC,
-			// },
 			saveDeployments: true,
 			chainId: 42,
 		},
 		rinkeby: {
 			url: process.env.RINKEBY_URL,
 			accounts: [process.env.PRIVATE_KEY],
-			//   accounts: {
-			//     mnemonic: MNEMONIC,
-			//   },
 			saveDeployments: true,
 			chainId: 4,
 		},
