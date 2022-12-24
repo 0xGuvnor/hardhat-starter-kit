@@ -15,7 +15,7 @@ const deployFunction: DeployFunction = async ({ deployments, getNamedAccounts })
 
     let mockAddress;
 
-    // Retrive mock contracks if needed
+    // Retrieve mock contracks if needed
     if (chainId === 31337) {
         const mock = await deployments.get("Mock");
         mockAddress = mock.address;
